@@ -1,6 +1,31 @@
+/* body part */
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
+    color: white;
 }
+/* body part */
+
+/* heading style */
+h1{
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: text 10s steps(19) infinite;
+    border-right: 5px solid white;
+}
+/* heading style */
+
+/* keyframe add */
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 19ch;
+    }
+}
+/* keyframe add */
